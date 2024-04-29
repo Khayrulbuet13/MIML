@@ -98,13 +98,6 @@ This project is funded by:
 
 
 
-
-<!-- Release Note -->
-
-## Release Note
-
-*0.1.0 - Initial Release: Unveiling of MIML, a game-changer in label-free cell classification with integration of biomechanical properties.*
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
