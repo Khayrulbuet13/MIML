@@ -1,5 +1,9 @@
 __pycache__/*
-dataset/*
 checkpoint/*
 secrets.json
 dump/*
+.history/*
+callbacks/__pycache__/*
+data/__pycache__/
+data/transformation/__pycache__/
+models/__pycache__/

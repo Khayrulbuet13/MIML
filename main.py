@@ -34,10 +34,10 @@ def main():
         }
 
     # Data loading
-    train_dl, val_dl, test_dl = get_dataloader( train_dir=os.path.join(project.data_dir, "TL-T4vsT8/train_mod"),
-                                                val_dir=os.path.join(project.data_dir, "TL-T4vsT8/test_mod"),
-                                                train_csv=os.path.join(project.data_dir, "TL-T4vsT8/normalized_feature_summary_train.csv"),
-                                                val_csv=os.path.join(project.data_dir, "TL-T4vsT8/normalized_feature_summary_val.csv"),
+    train_dl, val_dl, test_dl = get_dataloader( train_dir=os.path.join(project.data_dir, "T4vsT8/Train"),
+                                                val_dir=os.path.join(project.data_dir, "T4vsT8/Val"),
+                                                train_csv=os.path.join(project.data_dir, "T4vsT8/train_data.csv"),
+                                                val_csv=os.path.join(project.data_dir, "T4vsT8/val_data.csv"),
                                                 class_mapping = class_mapping,
                                                 train_transform=train_transform,
                                                 val_transform=val_transform,
